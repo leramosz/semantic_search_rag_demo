@@ -69,6 +69,9 @@ The script expects a table called `products` with at least these columns:
 
 The `embedding` column should be compatible with `pgvector`.
 
+The database scripts for seeding and setting up the database are attached in the `database/` folder. More details are available in the [Database README](./database/README.md).
+
+
 ## Run locally
 
 From the `embeddings/` folder, with the virtual environment activated:
