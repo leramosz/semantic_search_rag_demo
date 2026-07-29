@@ -93,3 +93,7 @@ Verify that `index.html` is in the same folder where you run the server.
 ## Goal of the demo
 
 This UI was built to present a semantic search and RAG experience in a clean, simple, and portfolio-friendly way.
+
+## Screenshots
+
+<img width="816" height="655" alt="image" src="https://github.com/user-attachments/assets/1d633c26-5f4c-40e1-b8d8-b6510c88f7b0" />
