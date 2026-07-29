@@ -114,4 +114,5 @@ See the README inside each folder for the exact values and usage.
 
 ## Screenshots
 
-Add a screenshot or GIF here to show the UI and make the repo more attractive on GitHub.
+<img width="816" height="655" alt="image" src="https://github.com/user-attachments/assets/1d633c26-5f4c-40e1-b8d8-b6510c88f7b0" />
+
