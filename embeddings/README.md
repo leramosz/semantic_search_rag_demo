@@ -39,7 +39,7 @@ Set these before running the script:
 ```bash
 export GOOGLE_CLOUD_PROJECT="your-project-id"
 export GOOGLE_CLOUD_LOCATION="your-location"
-export EMBEDDING_MODEL_NAME="your-embedding-model"
+export EMBEDDING_MODEL_NAME="your-embedding-model-name"
 export EMBEDDING_DIMENSIONS="your-embedding-dimensions"
 export DB_HOST="your-db-host"
 export DB_PORT="your-db-port"

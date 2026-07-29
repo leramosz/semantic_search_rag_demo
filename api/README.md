@@ -79,16 +79,16 @@ pip install fastapi uvicorn google-genai psycopg2-binary
 
 ```bash
 export GOOGLE_CLOUD_PROJECT="your-project-id"
-export GOOGLE_CLOUD_LOCATION="global"
-export DB_HOST="localhost"
-export DB_PORT="5432"
-export DB_NAME="miin_poc"
+export GOOGLE_CLOUD_LOCATION="your-location"
+export DB_HOST="your-db-host"
+export DB_PORT="your-db-port"
+export DB_NAME="your-db-name"
 export DB_USER="your-db-user"
 export DB_PASSWORD="your-db-password"
-export EMBEDDING_MODEL_NAME="gemini-embedding-001"
-export GENERATION_MODEL_NAME="gemini-2.5-flash"
-export EMBEDDING_DIMENSIONS="768"
-export HNSW_EF_SEARCH="200"
+export EMBEDDING_MODEL_NAME="your-embedding-model-name"
+export GENERATION_MODEL_NAME="your-generation-model-name"
+export EMBEDDING_DIMENSIONS="your-embedding-dimensions"
+export HNSW_EF_SEARCH="your-hnsw-ef-search"
 export DEBUG_LLM="false"
 ```
 
