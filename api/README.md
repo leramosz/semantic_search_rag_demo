@@ -121,3 +121,8 @@ If you see `ModuleNotFoundError`, make sure:
 - `fastapi`, `uvicorn`, `google-genai`, and `psycopg2-binary` are installed,
 - you are running the command from `api/`,
 - the environment variables are exported in the same terminal session.
+
+## Screenshots
+
+<img width="1009" height="661" alt="image" src="https://github.com/user-attachments/assets/57c84bf7-3fad-4507-8460-f6c0028c763c" />
+<img width="1008" height="652" alt="image" src="https://github.com/user-attachments/assets/d94b9bf7-2478-4669-b0a8-77ba217c3224" />
