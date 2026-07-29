@@ -28,9 +28,16 @@ PostgreSQL -> Pending rows -> Vertex AI embeddings -> pgvector update
 - Python 3.11+
 - PostgreSQL with `pgvector`
 - Google Cloud project with Vertex AI enabled
-- Python packages:
-  - `psycopg2`
-  - `google-genai`
+
+## Local setup
+
+From the `embeddings/` folder:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install fastapi uvicorn google-genai psycopg2-binary
+```
 
 ## Environment variables
 
@@ -63,6 +70,8 @@ The script expects a table called `products` with at least these columns:
 The `embedding` column should be compatible with `pgvector`.
 
 ## Run locally
+
+From the `embeddings/` folder, with the virtual environment activated:
 
 ```bash
 python3 embed_products.py
